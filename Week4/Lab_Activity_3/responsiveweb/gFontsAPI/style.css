@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	border: 1px solid #999;
+}
+
+header, footer {
+	background-color: #43c1ca;
+	color: #ffffff;
+	padding: 15px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	padding: 15px;
+	background-color: #43c1ca;
+	color: #ffffff;
+}
+
+nav li:hover {
+	background-color: #333;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
