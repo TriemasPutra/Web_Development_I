@@ -46,7 +46,7 @@
 	width: 8.33%;
 }
 
-[class*=“col-"] {
+[class*="col-"] {
 	float: left;
 	padding: 10px;
  }
