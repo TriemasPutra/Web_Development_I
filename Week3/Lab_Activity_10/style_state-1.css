@@ -27,7 +27,6 @@ nav ul li a:hover {
 background-color: #111;
 }
 
-/* 
 .container {
     width: 90%;
     margin: 0px auto;
@@ -60,4 +59,15 @@ footer {
     margin-top: 4px;
     background-color: #999;
 }
-*/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    width: 33.33%;
+    height: 150px;
+    text-align: center;
+    border: #333 thin solid;
+}

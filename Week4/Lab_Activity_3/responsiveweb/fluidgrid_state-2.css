@@ -54,3 +54,18 @@
 .row {
 	clear: both;
 }
+
+@media only screen and (max-width: 768px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	
+	h1 {
+		font-size: 16px;
+		color: #FF0;
+	}
+	
+	nav {
+		display: none;
+	}
+}
