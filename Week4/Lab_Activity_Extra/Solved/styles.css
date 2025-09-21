@@ -4,8 +4,9 @@
 /*asumsi lebar layar adalah 1440*/
 .row {
    clear:both;
- }
+}
 
+/* adjusted grid size to 1440 matching my screen width */
 .container {
 	width: 1380px;
 	margin: 0px auto;
@@ -59,8 +60,16 @@
 	width: 85px;
 }
 
+/* new part starts here */
+
 .mar-left {
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.mar-right {
     margin-left: 30px;
+    margin-right: 40px;
 }
 
 .fixed {
@@ -75,17 +84,22 @@
 }
 
 .row .item-berita {
-  margin-left: 65px;
+  margin-left: 80px;
+}
+
+.row .item-berita:first-child {
+    margin-left: 40px;
 }
 
 .row .item-berita:last-child {
-    margin-left: 60px;
-    margin-right: 65px; /* right edge */
+    margin-right: 40px;
 }
 
 .item-berita {
     display: inline-block;
 }
+
+/* new part ends here */
 
 [class*="grid_"] {
 	float: left;
@@ -93,7 +107,7 @@
 
 .cover-img{
    max-width: 100%;
-   margin-left: 40px;
+   padding-top: 40px; /* just to make it symmetric */
 }
 
 .item-berita-content {
@@ -103,32 +117,31 @@
 }
 
 .cover {
-    padding:10px;
-    margin-left: 30px;
+    padding:40px 0px; /* same here, making it symmetric */
 }
 
 .cover-subtitle {
-   font-family: "Roboto", sans-serif;
-   color: #C70000;
+    font-family: "Roboto", sans-serif;
+    color: #C70000;
 }
 
 .cover-title {
-   font-family: "Libre Bodoni", serif;
-   font-size: xx-large;
+    font-family: "Libre Bodoni", serif;
+    font-size: xx-large;
 }
 
 .cover-title a {
-   color:black;
-   text-decoration: none;
+    color:black;
+    text-decoration: none;
 }
 
 .cover-title a:hover {
-   color:black;
-   text-decoration:underline;
+    color:black;
+    text-decoration:underline;
 }
 
 .cover-intro {
-   margin-top:24px;
-   font-family: "Roboto", sans-serif;
-   color:grey;
+    margin-top:24px;
+    font-family: "Roboto", sans-serif;
+    color:grey;
 }
