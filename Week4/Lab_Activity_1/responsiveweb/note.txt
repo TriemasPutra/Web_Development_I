@@ -1,0 +1,3 @@
+This folder is customized up to my screen size,
+please change appropriately matching your screen size.
+PS: refer to UVC note to set grid by device.

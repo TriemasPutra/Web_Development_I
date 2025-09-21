@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*asumsi lebar layar adalah 1440*/
+* {
+   box-sizing: border-box;
+   margin:0;
+   padding:0;
+}
+
+.row {
+   clear:both;
+ }
+
+.container {
+	width: 1380px;
+	margin: 0px auto;
+}
+
+.grid_12 {
+	width: 1350px;
+}
+
+.grid_11 {
+	width: 1235px;
+}
+
+.grid_10 {
+	width: 1120px;
+}
+
+.grid_9 {
+	width: 1005px;
+}
+
+.grid_8 {
+	width: 890px;
+}
+
+.grid_7 {
+	width: 775px;
+}
+
+.grid_6 {
+	width: 660px;
+}
+
+.grid_5 {
+	width: 545px;
+}
+
+.grid_4 {
+	width: 430px;
+}
+
+.grid_3 {
+	width: 315px;
+}
+
+.grid_2 {
+	width: 200px;
+}
+
+.grid_1 {
+	width: 85px;
+}
+
+.mar-left {
+    margin-left: 30px;
+}
+
+.fixing {
+    font-size: 0;
+    padding-top: 30px;
+}
+
+.row .item-berita {
+    margin: auto;
+    float: initial;
+    font-size: initial;
+}
+
+.row .item-berita {
+  margin-left: 65px;
+}
+
+.row .item-berita:last-child {
+    margin-left: 60px;
+    margin-right: 65px; /* right edge */
+}
+
+.item-berita {
+    display: inline-block;
+}
+
+[class*="grid_"] {
+	float: left;
+}
+
+.cover-img{
+   max-width: 100%;
+   margin-left: 40px;
+}
+
+.item-berita-content {
+   background-color: beige;
+   padding: 20px; 
+   border:1px solid #565656; 
+}
+
+.cover {
+    padding:10px;
+    margin-left: 30px;
+}
+
+.cover-subtitle {
+   font-family: "Roboto", sans-serif;
+   color: #C70000;
+}
+
+.cover-title {
+   font-family: "Libre Bodoni", serif;
+   font-size: xx-large;
+}
+
+.cover-title a {
+   color:black;
+   text-decoration: none;
+}
+
+.cover-title a:hover {
+   color:black;
+   text-decoration:underline;
+}
+
+.cover-intro {
+   margin-top:24px;
+   font-family: "Roboto", sans-serif;
+   color:grey;
+}
