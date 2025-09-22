@@ -81,10 +81,7 @@
     margin: auto;
     float: initial;
     font-size: initial;
-}
-
-.row .item-berita {
-  margin-left: 80px;
+    margin-left: 80px;
 }
 
 .row .item-berita:first-child {
