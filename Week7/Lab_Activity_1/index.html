@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Week 7 - JavaScript</title>
+		<script src="script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body onload="sayHello()">
+	    <h1>
+	        JavaScript Event
+	    </h1>
+	    <p>Check your console, there should be a greeting there!</p>
+	    <br>
+	    <p>Enter your name down below and click enter! Then check your console again!</p>
+	    <input onchange="greet(value)" id="change" type="text"/>
+	    <br>
+	    <p>Just pass through this button below! Then check your console again!</p>
+	    <input onmouseover="overFunction()" onmouseout="outFunction()" value="Just a simple button" type="button"/>
+	    <br>
+	    <p>Press any key in the input box below!</p>
+	    <input onkeydown="keyDownFunction()" value="I'm the last here" type="text"/>
+	</body>
+</html>
