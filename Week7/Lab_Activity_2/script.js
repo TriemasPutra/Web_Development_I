@@ -8,7 +8,7 @@ let newArr = oriArray.concat(newValue);
 console.log("Concated Array: " + newArr);
 
 newValue.pop();
-console.log("Popped Array: " + newArr);
+console.log("Popped Array: " + newValue);
 
 newValue.push("back");
 console.log("Pushed Array: " + newValue);
